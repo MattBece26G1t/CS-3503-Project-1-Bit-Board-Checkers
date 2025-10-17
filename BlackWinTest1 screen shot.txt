@@ -1,0 +1,134 @@
+BlackWinTest1 "screen shot" (screen example) save file loaded. The save file is set up for player 2 to capture player 1 remaining piece. Player 2 moves 55 to 37 capturing the last piece on 46 
+
+Bit Board Checkers [Two-Player Edition]
+
+
+    0 1 2 3 4 5 6 7
+0 | _ r _ # _ r _ r |
+1 | r _ r _ r _ r _ |
+2 | _ r _ # _ r _ b |
+3 | # _ # _ r _ # _ |
+4 | _ b _ # _ b _ # |
+5 | b _ # _ # _ b _ |
+6 | _ b _ # _ # _ b |
+7 | b _ b _ b _ b _ |
+
+
+------------ MAIN MENU ------------
+1 - Display Current Board
+2 - Make A Move (enter FROM/TO positions)
+3 - Save Game
+4 - Load Game
+5 - Bit Operations Demo (Phase 1 - Test Functions)
+6 - How To Play
+7 - New Game (Reset Board)
+8 - Exit
+-----------------------------------
+Enter option number: 4
+
+Enter save file name to load (enter exactly as typed!): BlackWinTest1
+Game loaded from "BlackWinTest1".
+
+    0 1 2 3 4 5 6 7 
+0 | _ # _ # _ # _ # |
+1 | # _ # _ # _ # _ |
+2 | _ # _ # _ # _ # |
+3 | # _ # _ b _ B _ |
+4 | _ # _ b _ # _ # |
+5 | # _ # _ # _ r _ |
+6 | _ b _ # _ # _ b |
+7 | b _ b _ b _ # _ |
+
+
+------------ MAIN MENU ------------
+1 - Display Current Board
+2 - Make A Move (enter FROM/TO positions)
+3 - Save Game
+4 - Load Game
+5 - Bit Operations Demo (Phase 1 - Test Functions)
+6 - How To Play
+7 - New Game (Reset Board)
+8 - Exit
+-----------------------------------
+Enter option number: 2
+
+[Player 2 (Black) turn]
+
+    0 1 2 3 4 5 6 7
+0 | _ # _ # _ # _ # |
+1 | # _ # _ # _ # _ |
+2 | _ # _ # _ # _ # |
+3 | # _ # _ b _ B _ |
+4 | _ # _ b _ # _ # |
+5 | # _ # _ # _ r _ |
+6 | _ b _ # _ # _ b |
+7 | b _ b _ b _ # _ |
+
+===============================
+{Bit Board Checkers Reference}
+Use this board to refer to your positions
+
+        Columns 0 - 7
+Row 0:  0  1  2  3  4  5  6  7
+Row 1:  8  9 10 11 12 13 14 15
+Row 2: 16 17 18 19 20 21 22 23
+Row 3: 24 25 26 27 28 29 30 31
+Row 4: 32 33 34 35 36 37 38 39
+Row 5: 40 41 42 43 44 45 46 47
+Row 6: 48 49 50 51 52 53 54 55
+Row 7: 56 57 58 59 60 61 62 63
+===============================
+
+Tip: If stuck, enter -1 to cancel and return to the main menu.
+
+Enter FROM position (0-63, "#" dark square): 55
+Enter TO position (0-63, "#" dark square): 54
+That is not a playable "#" dark square! Try another spot.
+Enter TO position (0-63, "#" dark square): 45
+That is not a playable "#" dark square! Try another spot.
+Enter TO position (0-63, "#" dark square): 46
+Invalid move. Please try again.
+Enter TO position (0-63, "#" dark square): 37
+Player 2 (Black) captured Player 1 (Red)! Jumping over position 46.
+Player 2 (Black) Moved from 55 to 37.
+
+    0 1 2 3 4 5 6 7
+0 | _ # _ # _ # _ # |
+1 | # _ # _ # _ # _ |
+2 | _ # _ # _ # _ # |
+3 | # _ # _ b _ B _ |
+4 | _ # _ b _ b _ # |
+5 | # _ # _ # _ # _ |
+6 | _ b _ # _ # _ # |
+7 | b _ b _ b _ # _ |
+
+Player 2 (Black) wins!
+
+Would you like to play again (New Game - Reset Board) [Enter 1]?
+Or Exit [Enter 2]?
+
+Enter Option: 1
+
+
+    0 1 2 3 4 5 6 7
+0 | _ r _ r _ r _ r |
+1 | r _ r _ r _ r _ |
+2 | _ r _ r _ r _ r |
+3 | # _ # _ # _ # _ |
+4 | _ # _ # _ # _ # |
+5 | b _ b _ b _ b _ |
+6 | _ b _ b _ b _ b |
+7 | b _ b _ b _ b _ |
+
+
+------------ MAIN MENU ------------
+1 - Display Current Board
+2 - Make A Move (enter FROM/TO positions)
+3 - Save Game
+4 - Load Game
+5 - Bit Operations Demo (Phase 1 - Test Functions)
+6 - How To Play
+7 - New Game (Reset Board)
+8 - Exit
+-----------------------------------
+Enter option number:
